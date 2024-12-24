@@ -20,7 +20,7 @@ def listen_mouse_click(main_window, other_windows):
                 if not active_window or "Chrome" not in active_window.title:
                     return  # Không xử lý sự kiện nếu không phải cửa sổ Chrome
 
-                print(f"Chuẩn bị lấy toạ độ chuột: ({x}, {y})")
+                print(f"Toạ độ chuột: ({x}, {y})")
 
                 # Lấy tọa độ cửa sổ chính
                 main_window_obj = gw.getWindowsWithTitle(main_window)[0]
